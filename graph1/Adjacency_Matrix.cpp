@@ -1,17 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 #define  ll  long long
-void fastIO()
-{
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
-}
 
 int main()
 {
-    fastIO();
-
     int nodes,edges;
     cin >> nodes >> edges;
     int adj_mat[nodes][nodes] = {}; // to set zero in all elements
