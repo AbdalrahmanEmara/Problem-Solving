@@ -14,7 +14,7 @@ int main()
         int u, v;
         cin >> u >> v;
         adj_list[u].push_back(v);
-        adj_list[v].push_back(u);
+        adj_list[v].push_back(u); // for undirected edge in graph
     }
     // print edges for all lists in the vector
     for(int i=0 ; i<nodes ; i++)
